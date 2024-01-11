@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basra</title>
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/require.js"></script>
+</head>
+<body style="margin-left: 0;">
+
+    <div id="menu">
+        <a href="/rooms" class="link">Rooms</a>
+    </div>
+    <div id="left-sidebar">
+        <!--<div id="log">-->
+            <!--<button id="dodoe">DODOE</button>-->
+        <!--</div>-->
+    </div>
+    <div class="table" >
+        <div id="top" class="hor player"> <!-- top -->
+        </div>
+        <div id="right" class="vert player"><!-- right -->
+        </div>
+        <div id="bottom" class="hor player"><!-- bottom -->
+        </div>
+        <div id="left" class="vert player"><!-- left -->
+        </div>
+        <div id="table"><!-- table -->
+        </div>
+    </div>
+    <div id="right-sidebar">
+        <div id="scores"></div>
+        <a href="javascript:" id="clearLog" style="margin: 5px;float: right">Clear Log</a>
+        <div id="log"></div>
+        <!--<div id="chat">-->
+            <!--<div id="chat-messages"></div>-->
+            <!--<textarea id="chat-type"></textarea>-->
+            <!--<button id="chat-send">Send</button>-->
+        <!--</div>-->
+    </div>
+    <div style="clear: both;"></div>
+    <script src="js/client.js"></script>
+</body>
+</html>
